@@ -30,5 +30,7 @@ namespace CourierManagementSystem.Models
         /// Developer notes related to this customer or order (internal use).
         /// </summary>
         public string DevelopersNotes { get; set; } = string.Empty;
+        public string BillType { get; set; } = string.Empty;
+        public string CustomerType { get; set; } = string.Empty;
     }
 }   
