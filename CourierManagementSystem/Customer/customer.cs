@@ -32,5 +32,7 @@ namespace CourierManagementSystem.Models
         public string DevelopersNotes { get; set; } = string.Empty;
         public string BillType { get; set; } = string.Empty;
         public string CustomerType { get; set; } = "C2C";
+        public string Test { get; set; } = "";
+        public string Test1 { get; set; } = "";
     }
 }   
