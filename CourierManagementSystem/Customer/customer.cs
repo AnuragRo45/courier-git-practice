@@ -31,6 +31,6 @@ namespace CourierManagementSystem.Models
         /// </summary>
         public string DevelopersNotes { get; set; } = string.Empty;
         public string BillType { get; set; } = string.Empty;
-        public string Ctype { get; set; } = string.Empty;
+        public string Ctypes { get; set; } = string.Empty;
     }
 }   
