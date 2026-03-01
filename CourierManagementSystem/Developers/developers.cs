@@ -38,5 +38,17 @@ namespace CourierManagementSystem.Models
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
         public string File2 { get; set; } = string.Empty;
 
+        public void AddNote(string noteContent, string author)
+        {
+            Note = noteContent;
+            Author = author;
+            CreatedAt = DateTimeOffset.UtcNow;
+        }
+
+
+        public override string ToString()
+        {
+            return $"Note by {Author} on {CreatedAt}: {Note}";
+        }
     }
 }

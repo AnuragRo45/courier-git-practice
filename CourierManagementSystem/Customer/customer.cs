@@ -38,5 +38,6 @@ namespace CourierManagementSystem.Models
         public string cheery1 { get; set; } = "";
         public string cheery2 { get; set; } = "";
         public string cheery3 { get; set; } = "";
+        public string stash2 { get; set; } = "";
     }
 }   
