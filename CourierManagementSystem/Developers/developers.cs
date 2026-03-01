@@ -36,5 +36,7 @@ namespace CourierManagementSystem.Models
         /// When the note was created.
         /// </summary>
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+        public string File2 { get; set; } = string.Empty;
+
     }
 }
