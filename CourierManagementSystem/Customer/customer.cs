@@ -34,5 +34,8 @@ namespace CourierManagementSystem.Models
         public string CustomerType { get; set; } = "C2C";
         public string Test { get; set; } = "";
         public string Test1 { get; set; } = "";
+
+        public string cheery1 { get; set; } = "";
+        public string cheery2 { get; set; } = "";
     }
 }   
